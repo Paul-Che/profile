@@ -20,7 +20,7 @@ h1 {
 }
 h2, h3 {
   color: rgb(131, 145, 144);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 20px;
 }
 p {
@@ -28,12 +28,14 @@ p {
   font-family: 'Catamaran', sans-serif;
   line-height: 22px;
 }
-a:hover, i:hover {
-  color: rgb(67, 96, 156);
+a:hover {
+  color: rgb(221, 85, 85);
 }
-a, i {
+
+a {
  text-decoration: none;
  color: rgb(131, 145, 144);
+ font-size: 25px;
 }
 li {
   list-style-type: none;
@@ -42,7 +44,7 @@ li {
   border-collapse: collapse;
 }
 .container{
-  width: 500px;
+  width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -57,4 +59,25 @@ li {
 .list-inline > li {
   display: inline-block;
   padding: 20px;
+}
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(56, 64, 71);
+}
+#page-content {
+  margin-left: 300px;
+}
+#icon_white:hover{
+  color: white;
+}
+#icon_white{
+  font-size: 15px;
+}
+.movie_size{
+  width: 140px;
+  height: 200px;
 }

@@ -15,78 +15,99 @@
     <meta property="og:site_name" content="Le Wagon"/>
   </head>
   <body>
-    <div class="container">
-      <div class="card-white">
-        <img src="images/paul.png" alt="profil logo" class="img-circle shadowed" id="profil">
-        <h1>Paul CHENON</h1>
-        <h2>Student @Le Wagon</h2>
-        <p>
-          After finishing my engineering school in the energy and automated systems area, I was willing to get into entrepreneurship. Therefore, Le Wagon 's formation is a first step in it.
-        </p>
-      </div>
-      <div class="card-white">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/paulchenon" target="_blank">
-              <i class="fa fa-facebook"></i>  Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com" target="_blank">
-              <i class="fa fa-linkedin"></i>  LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/?lang=fr" target="_blank">
-              <i class="fa fa-twitter"></i>  Twitter
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="card-white">
-        <h2>My Favorites Movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="images/movie-interstellar.jpg" alt=""></td>
-              <td>
-                <h3>Interstellar</h3>
-                <p>
-                  Interstellar opens on Earth in the distant future, as Mother Nature is waging war on humanity. Famine is widespread, and all of mankind's resources are now dedicated to farming in a desperate fight for survival. A former NASA pilot and engineer named Cooper (Matthew McConaughey) has become a homesteader in order to support his teenage son Tom (Timothee Chalamet) and 10-year-old daughter Murph (Mackenzie Foy).
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/movie-matrix.jpg" alt=""></td>
-              <td>
-                <h3>The Matrix</h3>
-                <p>
-                  What if virtual reality wasn't just for fun, but was being used to imprison you? That's the dilemma that faces mild-mannered computer jockey Thomas Anderson (Keanu Reeves) in The Matrix. It's the year 1999, and Anderson (hacker alias: Neo) works in a cubicle, manning a computer and doing a little hacking on the side.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/movie-thedeparted.jpg" alt=""></td>
-              <td>
-                <h3>The Departed</h3>
-                <p>
-                  Legendary director Martin Scorsese takes the helm for this tale of questionable loyalties and blurring identities set in the South Boston organized crime scene and inspired by the wildly popular 2002 Hong Kong crime film Infernal Affairs.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card-white">
-        <h2>About this page</h2>
-        <p>
-          This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
-        </p>
-        <ul class="list-inline">
-          <li><i class="fa fa-check"></i></li>
-          <li><i class="fa fa-bus"></i></li>
-          <li><i class="fa fa-users"></i></li>
-        </ul>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info" id="icon_white">  Info</i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-film" id="icon_white">  Movies</i>
+          </a>
+        </li>
+        <li>
+          <a href="#help">
+            <i class="fa fa-share" id="icon_white">  Info</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card-white" id="summary">
+          <img src="images/paul.png" alt="profil logo" class="img-circle shadowed" id="profil">
+          <h1>Paul CHENON</h1>
+          <h2>Student @Le Wagon</h2>
+          <p>
+            After finishing my engineering school in the energy and automated systems area, I was willing to get into entrepreneurship. Therefore, Le Wagon 's formation is a first step in it.
+          </p>
+        </div>
+        <div class="card-white">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/paulchenon" target="_blank">
+                <i class="fa fa-facebook"></i><br>Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa fa-linkedin"></i><br>LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/?lang=fr" target="_blank">
+                <i class="fa fa-twitter"></i><br>Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-white" id="favorite-movies">
+          <h2>My Favorites Movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="images/movie-interstellar.jpg" class="movie_size"></td>
+                <td>
+                  <h3>Interstellar</h3>
+                  <p>
+                    Interstellar opens on Earth in the distant future, as Mother Nature is waging war on humanity. Famine is widespread, and all of mankind's resources are now dedicated to farming in a desperate fight for survival. A former NASA pilot and engineer named Cooper (Matthew McConaughey) has become a homesteader in order to support his teenage son Tom (Timothee Chalamet) and 10-year-old daughter Murph (Mackenzie Foy).
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/movie-matrix.jpg" class="movie_size"></td>
+                <td>
+                  <h3>The Matrix</h3>
+                  <p>
+                    What if virtual reality wasn't just for fun, but was being used to imprison you? That's the dilemma that faces mild-mannered computer jockey Thomas Anderson (Keanu Reeves) in The Matrix. It's the year 1999, and Anderson (hacker alias: Neo) works in a cubicle, manning a computer and doing a little hacking on the side.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/movie-thedeparted.jpg" class="movie_size"></td>
+                <td>
+                  <h3>The Departed</h3>
+                  <p>
+                    Legendary director Martin Scorsese takes the helm for this tale of questionable loyalties and blurring identities set in the South Boston organized crime scene and inspired by the wildly popular 2002 Hong Kong crime film Infernal Affairs.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-white" id="help">
+          <h2>About this page</h2>
+          <p>
+            This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
+          </p>
+          <ul class="list-inline">
+            <li><i class="fa fa-check"></i></li>
+            <li><i class="fa fa-bus"></i></li>
+            <li><i class="fa fa-users"></i></li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
