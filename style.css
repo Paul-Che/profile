@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+.img-circle{
+  border-radius: 80%;
+}
+.shadowed{
+  box-shadow: 3px 3px 3px rgb(131, 145, 144);
+}
+#profil{
+
+}
+h1 {
+  color: rgb(221, 85, 85);
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+}
+h2, h3 {
+  color: rgb(131, 145, 144);
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+}
+p {
+  color: rgb(120, 120, 120);
+  font-family: 'Catamaran', sans-serif;
+  line-height: 22px;
+}
+a:hover, i:hover {
+  color: rgb(67, 96, 156);
+}
+a, i {
+ text-decoration: none;
+ color: rgb(131, 145, 144);
+}
+li {
+  list-style-type: none;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
